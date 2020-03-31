@@ -1,4 +1,6 @@
-from fastai2.vision.all import * 
+from fastai2.learner import load_learner
+from fastai2.learner import Learner
+from fastai2.vision.core import PILImage
 import streamlit as st
 import os
 import time
